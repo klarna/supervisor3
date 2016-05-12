@@ -2,7 +2,7 @@
 This file is a copy of supervisor.erl from the R16B Erlang/OTP
 distribution, with the following modifications:
 
-1. The module name is supervisor2.
+1. The module name is supervisor3.
 
 2. A find_child/2 utility function has been added.
 
