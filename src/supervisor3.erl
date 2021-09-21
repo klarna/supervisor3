@@ -185,6 +185,7 @@
           [ChildSpec :: child_spec()]}}
     | ignore.
 
+-optional_callbacks([post_init/1]).
 -define(restarting(_Pid_), {restarting,_Pid_}).
 -define(delayed_restart(_TRef_), {delayed_restart,_TRef_}).
 
